@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delta Farce - Gaming Community</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            background: white;
+            border-radius: 20px;
+            padding: 60px 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #1e3c72;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .tagline {
+            font-size: 1.3em;
+            color: #666;
+            margin-bottom: 40px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .link-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-decoration: none;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .link-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.6);
+        }
+
+        .link-card h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        .link-card p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .community-section {
+            margin-top: 50px;
+            padding-top: 40px;
+            border-top: 2px solid #e0e0e0;
+        }
+
+        .community-links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .community-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 24px;
+            background: #5865F2;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .community-link:hover {
+            background: #4752C4;
+            transform: translateY(-2px);
+        }
+
+        .community-link.github {
+            background: #24292e;
+        }
+
+        .community-link.github:hover {
+            background: #1a1e22;
+        }
+
+        .server-info {
+            margin-top: 20px;
+            padding: 20px;
+            background: #f0f4f8;
+            border-radius: 8px;
+            border-left: 4px solid #4CAF50;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            font-size: 0.9em;
+            color: #999;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 40px 30px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .tagline {
+                font-size: 1.1em;
+            }
+
+            .link-card h2 {
+                font-size: 1.4em;
+            }
+
+            .community-links {
+                flex-direction: column;
+            }
+        }
+    </style>
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8117946503724556"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Delta Farce</h1>
+        <p class="tagline">Gaming Community & Tools</p>
+
+        <div class="links">
+            <a href="https://hotas.deltafarce.win" class="link-card">
+                <h2>🕹️ HOTAS Configurator</h2>
+                <p>Configure your joystick for Arma Reforger</p>
+            </a>
+
+            <a href="https://walkingsimulator.deltafarce.win" class="link-card">
+                <h2>🚶 Walking Simulator</h2>
+                <p>Explore our sandbox project</p>
+            </a>
+        </div>
+
+        <div class="community-section">
+            <h2>Join Our Community</h2>
+            <div class="community-links">
+                <a href="https://discord.deltafarce.win" target="_blank" rel="noopener noreferrer" class="community-link">
+                    <span>💬</span>
+                    <span>Join Discord</span>
+                </a>
+                <a href="https://github.com/jscrobinson" target="_blank" rel="noopener noreferrer" class="community-link github">
+                    <span>⚙️</span>
+                    <span>GitHub</span>
+                </a>
+            </div>
+
+            <div class="server-info">
+                <p><strong>🎮 Find our Arma Reforger servers</strong></p>
+                <p>Search for <strong>Delta Farce</strong> in the server browser</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Delta Farce Gaming Community</p>
+        </footer>
+    </div>
+</body>
+</html>

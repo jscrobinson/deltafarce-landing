@@ -1,0 +1,6 @@
+name = "deltafarce-landing"
+compatibility_date = "2025-11-13"
+pages_build_output_dir = "."
+
+# Simple static site - no build needed
+# Just deploy the current directory
